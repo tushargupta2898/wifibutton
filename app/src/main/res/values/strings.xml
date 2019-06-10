@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">wifi-buttons</string>
+    <string name="todotv">TODO</string>
+    <string name="todoac">TODO</string>
+    <string name="todofan">TODO</string>
+    <string name="todolight">TODO</string>
+    <string name="light">LIGHT</string>
+    <string name="television">TELEVISION</string>
+    <string name="air_conditioner">AIR CONDITIONER</string>
+    <string name="fan">FAN</string>
+    <string name="allon">ALLON</string>
+    <string name="alloff">ALLOFF</string>
+    <string name="todoallon">TODO</string>
+    <string name="todoalloff">TODO</string>
+</resources>

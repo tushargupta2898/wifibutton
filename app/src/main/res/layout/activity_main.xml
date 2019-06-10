@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/Buttontv"
+        android:layout_width="85dp"
+        android:layout_height="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Buttonlight"
+        android:layout_alignLeft="@+id/Buttonlight"
+        android:layout_marginTop="160dp"
+        android:contentDescription="@string/todotv"
+        app:srcCompat="@drawable/television"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <ImageButton
+        android:id="@+id/Buttonfan"
+        android:layout_width="85dp"
+        android:layout_height="82dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Buttonlight"
+        android:layout_marginEnd="68dp"
+        android:layout_marginRight="68dp"
+        android:contentDescription="@string/todofan"
+        app:srcCompat="@drawable/fan"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <ImageButton
+        android:id="@+id/Buttonlight"
+        android:layout_width="85dp"
+        android:layout_height="82dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/todolight"
+        app:srcCompat="@drawable/lightbulb"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageButton
+        android:id="@+id/Buttonac"
+        android:layout_width="85dp"
+        android:layout_height="82dp"
+        android:layout_alignStart="@+id/Buttonfan"
+        android:layout_alignLeft="@+id/Buttonfan"
+        android:layout_alignTop="@+id/Buttontv"
+        android:contentDescription="@string/todoac"
+        app:srcCompat="@drawable/airconditioner"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <TextView
+        android:id="@+id/textlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/texttv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Buttontv"
+        android:layout_alignRight="@+id/Buttontv"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="250dp"
+        android:text="@string/television"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textfan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textlight"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:text="@string/fan"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/texttv"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/air_conditioner"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/Buttonallon"
+        android:layout_width="85dp"
+        android:layout_height="82dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Buttontv"
+        android:layout_alignLeft="@+id/Buttontv"
+        android:layout_marginTop="290dp"
+        app:srcCompat="@drawable/on"
+        android:contentDescription="@string/todoallon" />
+
+    <ImageButton
+        android:id="@+id/Buttonalloff"
+        android:layout_width="85dp"
+        android:layout_height="82dp"
+        android:layout_alignStart="@+id/Buttonfan"
+        android:layout_alignLeft="@+id/Buttonfan"
+        android:layout_alignTop="@+id/Buttonallon"
+        app:srcCompat="@drawable/off"
+        android:contentDescription="@string/todoalloff" />
+
+    <TextView
+        android:id="@+id/textallon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textlight"
+        android:layout_alignLeft="@+id/textlight"
+        android:layout_alignTop="@+id/textalloff"
+        android:text="@string/allon"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textalloff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
+        android:text="@string/alloff"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
